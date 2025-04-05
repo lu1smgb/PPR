@@ -6,8 +6,8 @@ GENCODE_SM70    := -gencode arch=compute_70,code=sm_70
 GENCODE_SM80    := -gencode arch=compute_80,code=compute_80
 
 GENCODE_FLAGS   ?= $(GENCODE_SM60) $(GENCODE_SM70) $(GENCODE_SM80)
-OBJ = suma_matrices.out
-SRC = suma_matrices.cu
+OBJ = suma_matrices_columna
+SRC = suma_matrices_columna.cu
 
 $(OBJ):$(SRC)
 	nvcc -I./includes  -O3 -m64   $(GENCODE_FLAGS) $(SRC) -o $(OBJ)
