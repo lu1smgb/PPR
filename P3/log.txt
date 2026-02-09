@@ -1,0 +1,847 @@
+mpirun --oversubscribe -np 4 ./bbpar 10 ./tsp_problems/tsp10.1
+rank=3; size=4
+rank=0; size=4
+-------------------------------------------------------------
+  0  2  3 55  6 44 33 34  4 55
+  5  0 11 21 12 14 11 12 10 19
+ 34  0  0 22 22 34 41 12 60  9
+ 24  2 11  0 82 84 21 12 16 19
+  4  3 21 13  0 34 43 12 15 29
+ 14  5 20 53 82  0 41 12 50 19
+  4 11 66 63 92 30  0 22 12 39
+ 22 32 12 73 22 34 41  0 14 49
+ 24 12 16 13 22 20 20 22  0 39
+ 54 15 66 53 52 35 10 42 42  0
+-------------------------------------------------------------
+rank=1; size=4
+rank=2; size=4
+1er equilibrado de rank=2
+1er equilibrado de rank=3
+Ciclo
+aP0 - It1 - pila=2 - U=100000
+1er equilibrado de rank=1
+NODOSNODOS(P1, 0) --> P2
+Ciclo
+aP2 - It1 - pila=2 - U=100000
+dP2 - It1 - pila=2 - U=100000
+Ciclo
+aP2 - It2 - pila=3 - U=100000
+dP2 - It2 - pila=3 - U=100000
+Ciclo
+NODOSNODOS(P1, 0) --> P3
+Ciclo
+aP3 - It1 - pila=2 - U=100000
+dP3 - It1 - pila=2 - U=100000
+Ciclo
+dP0 - It1 - pila=2 - U=100000
+Ciclo
+aP0 - It2 - pila=3 - U=100000
+dP0 - It2 - pila=3 - U=100000
+Ciclo
+aP0 - It3 - pila=2 - U=100000
+dP0 - It3 - pila=2 - U=100000
+Ciclo
+aP0 - It4 - pila=3 - U=100000
+dP0 - It4 - pila=3 - U=100000
+Ciclo
+aP2 - It3 - pila=4 - U=100000
+dP2 - It3 - pila=4 - U=100000
+Ciclo
+aP3 - It2 - pila=3 - U=100000
+dP3 - It2 - pila=3 - U=100000
+Ciclo
+aP0 - It5 - pila=4 - U=100000
+dP0 - It5 - pila=4 - U=100000
+Ciclo
+aP2 - It4 - pila=5 - U=100000
+dP2 - It4 - pila=5 - U=100000
+Ciclo
+aP2 - It5 - pila=6 - U=100000
+dP2 - It5 - pila=6 - U=100000
+Ciclo
+aP3 - It3 - pila=4 - U=100000
+dP3 - It3 - pila=4 - U=100000
+Ciclo
+aP2 - It6 - pila=7 - U=100000
+dP2 - It6 - pila=7 - U=100000
+Ciclo
+aP0 - It6 - pila=5 - U=100000
+dP0 - It6 - pila=5 - U=100000
+Ciclo
+aP3 - It4 - pila=5 - U=100000
+dP3 - It4 - pila=5 - U=100000
+Ciclo
+aP0 - It7 - pila=6 - U=100000
+dP0 - It7 - pila=6 - U=100000
+Ciclo
+aP0 - It8 - pila=7 - U=100000
+dP0 - It8 - pila=7 - U=100000
+Ciclo
+aP2 - It7 - pila=6 - U=169
+dP2 - It7 - pila=6 - U=169
+Ciclo
+aP2 - It8 - pila=5 - U=169
+dP2 - It8 - pila=5 - U=169
+Ciclo
+aP3 - It5 - pila=6 - U=100000
+dP3 - It5 - pila=6 - U=100000
+Ciclo
+aP3 - It6 - pila=5 - U=161
+dP3 - It6 - pila=5 - U=161
+Ciclo
+aP3 - It7 - pila=5 - U=161
+dP3 - It7 - pila=5 - U=161
+aP2 - It9 - pila=5 - U=169
+dP2 - It9 - pila=5 - U=169
+Ciclo
+aP0 - It9 - pila=8 - U=100000
+dP0 - It9 - pila=8 - U=100000
+Ciclo
+aP2 - It10 - pila=6 - U=169
+dP2 - It10 - pila=6 - U=169
+Ciclo
+aP2 - It11 - pila=6 - U=169
+dP2 - It11 - pila=6 - U=169
+Ciclo
+aP0 - It10 - pila=7 - U=132
+dP0 - It10 - pila=6 - U=132
+Ciclo
+aP0 - It11 - pila=5 - U=132
+dP0 - It11 - pila=5 - U=132
+Ciclo
+Ciclo
+aP3 - It8 - pila=4 - U=127
+dP3 - It8 - pila=3 - U=127
+Ciclo
+aP3 - It9 - pila=4 - U=127
+aP0 - It12 - pila=5 - U=132
+dP0 - It12 - pila=5 - U=132
+Ciclo
+aP2 - It12 - pila=5 - U=157
+dP2 - It12 - pila=4 - U=157
+Ciclo
+aP2 - It13 - pila=5 - U=157
+dP2 - It13 - pila=5 - U=157
+Ciclo
+dP3 - It9 - pila=4 - U=127
+Ciclo
+aP3 - It10 - pila=5 - U=127
+dP3 - It10 - pila=5 - U=127
+aP0 - It13 - pila=5 - U=132
+dP0 - It13 - pila=5 - U=132
+Ciclo
+aP0 - It14 - pila=4 - U=132
+dP0 - It14 - pila=4 - U=132
+Ciclo
+Ciclo
+aP3 - It11 - pila=5 - U=127
+dP3 - It11 - pila=5 - U=127
+Ciclo
+aP2 - It14 - pila=5 - U=157
+dP2 - It14 - pila=5 - U=157
+Ciclo
+aP2 - It15 - pila=6 - U=157
+dP2 - It15 - pila=6 - U=157
+Ciclo
+aP2 - It16 - pila=5 - U=157
+dP2 - It16 - pila=5 - U=157
+Ciclo
+aP3 - It12 - pila=5 - U=127
+dP3 - It12 - pila=5 - U=127
+Ciclo
+aP0 - It15 - pila=5 - U=132
+dP0 - It15 - pila=5 - U=132
+Ciclo
+aP2 - It17 - pila=5 - U=157
+dP2 - It17 - pila=5 - U=157
+Ciclo
+aP2 - It18 - pila=4 - U=157
+dP2 - It18 - pila=4 - U=157
+aP3 - It13 - pila=4 - U=123
+dP3 - It13 - pila=4 - U=123
+Ciclo
+aP0 - It16 - pila=5 - U=132
+dP0 - It16 - pila=5 - U=132
+Ciclo
+aP0 - It17 - pila=5 - U=132
+dP0 - It17 - pila=5 - U=132
+aP3 - It14 - pila=4 - U=123
+dP3 - It14 - pila=4 - U=123
+Ciclo
+Ciclo
+aP2 - It19 - pila=5 - U=157
+dP2 - It19 - pila=5 - U=157
+Ciclo
+Ciclo
+aP0 - It18 - pila=5 - U=132
+dP0 - It18 - pila=5 - U=132
+Ciclo
+aP0 - It19 - pila=5 - U=132
+dP0 - It19 - pila=5 - U=132
+Ciclo
+aP2 - It20 - pila=6 - U=157
+dP2 - It20 - pila=6 - U=157
+Ciclo
+aP2 - It21 - pila=7 - U=157
+dP2 - It21 - pila=7 - U=157
+Ciclo
+aP3 - It15 - pila=3 - U=123
+dP3 - It15 - pila=3 - U=123
+Ciclo
+aP3 - It16 - pila=4 - U=123
+dP3 - It16 - pila=4 - U=123
+Ciclo
+aP0 - It20 - pila=5 - U=132
+dP0 - It20 - pila=5 - U=132
+Ciclo
+aP0 - It21 - pila=4 - U=131
+dP0 - It21 - pila=4 - U=131
+Ciclo
+aP2 - It22 - pila=6 - U=111
+dP2 - It22 - pila=2 - U=111
+Ciclo
+aP2 - It23 - pila=1 - U=111
+dP2 - It23 - pila=1 - U=111
+Ciclo
+aP3 - It17 - pila=4 - U=123
+dP3 - It17 - pila=4 - U=123
+Ciclo
+aP2 - It24 - pila=2 - U=111
+dP2 - It24 - pila=2 - U=111
+Ciclo
+aP2 - It25 - pila=2 - U=111
+dP2 - It25 - pila=2 - U=111
+Ciclo
+aP2 - It26 - pila=3 - U=111
+dP2 - It26 - pila=3 - U=111
+Ciclo
+aP0 - It22 - pila=5 - U=131
+dP0 - It22 - pila=5 - U=131
+Ciclo
+aP0 - It23 - pila=5 - U=131
+dP0 - It23 - pila=5 - U=131
+Ciclo
+aP0 - It24 - pila=6 - U=131
+dP0 - It24 - pila=6 - U=131
+Ciclo
+aP3 - It18 - pila=3 - U=123
+dP3 - It18 - pila=3 - U=123
+Ciclo
+aP3 - It19 - pila=3 - U=123
+dP3 - It19 - pila=3 - U=123
+Ciclo
+aP3 - It20 - pila=3 - U=123
+dP3 - It20 - pila=3 - U=123
+Ciclo
+aP3 - It21 - pila=3 - U=123
+dP3 - It21 - pila=3 - U=123
+aP0 - It25 - pila=6 - U=131
+dP0 - It25 - pila=6 - U=131
+Ciclo
+aP0 - It26 - pila=6 - U=131
+dP0 - It26 - pila=6 - U=131
+Ciclo
+aP2 - It27 - pila=2 - U=111
+dP2 - It27 - pila=2 - U=111
+Ciclo
+aP2 - It28 - pila=2 - U=111
+dP2 - It28 - pila=2 - U=111
+Ciclo
+Ciclo
+aP3 - It22 - pila=2 - U=121
+dP3 - It22 - pila=2 - U=121
+Ciclo
+aP0 - It27 - pila=5 - U=121
+dP0 - It27 - pila=3 - U=121
+Ciclo
+aP2 - It29 - pila=1 - U=111
+dP2 - It29 - pila=1 - U=111
+Ciclo
+aP2 - It30 - pila=2 - U=111
+dP2 - It30 - pila=2 - U=111
+Ciclo
+aP2 - It31 - pila=2 - U=111
+dP2 - It31 - pila=2 - U=111
+Ciclo
+aP0 - It28 - pila=4 - U=121
+dP0 - It28 - pila=4 - U=121
+Ciclo
+aP3 - It23 - pila=3 - U=121
+dP3 - It23 - pila=3 - U=121
+Ciclo
+aP3 - It24 - pila=4 - U=121
+dP3 - It24 - pila=4 - U=121
+Ciclo
+aP2 - It32 - pila=3 - U=111
+dP2 - It32 - pila=3 - U=111
+Ciclo
+aP2 - It33 - pila=2 - U=111
+dP2 - It33 - pila=2 - U=111
+aP0 - It29 - pila=5 - U=121
+dP0 - It29 - pila=5 - U=121
+Ciclo
+aP0 - It30 - pila=5 - U=121
+dP0 - It30 - pila=5 - U=121
+aP3 - It25 - pila=5 - U=121
+dP3 - It25 - pila=5 - U=121
+Ciclo
+Ciclo
+Ciclo
+aP0 - It31 - pila=6 - U=121
+dP0 - It31 - pila=6 - U=121
+Ciclo
+aP2 - It34 - pila=1 - U=111
+dP2 - It34 - pila=1 - U=111
+Ciclo
+aP3 - It26 - pila=5 - U=121
+dP3 - It26 - pila=5 - U=121
+Ciclo
+aP3 - It27 - pila=4 - U=116
+aP2 - It35 - pila=1 - U=111
+dP2 - It35 - pila=1 - U=111
+Ciclo
+dP3 - It27 - pila=4 - U=116
+Ciclo
+aP3 - It28 - pila=3 - U=116
+dP3 - It28 - pila=3 - U=116
+aP2 - It36 - pila=1 - U=111
+dP2 - It36 - pila=1 - U=111
+Ciclo
+aP0 - It32 - pila=6 - U=121
+dP0 - It32 - pila=6 - U=121
+Ciclo
+aP0 - It33 - pila=7 - U=121
+dP0 - It33 - pila=7 - U=121
+Ciclo
+aP0 - It34 - pila=6 - U=108
+dP0 - It34 - pila=3 - U=108
+aP2 - It37 - pila=1 - U=111
+dP2 - It37 - pila=1 - U=111
+Ciclo
+aP2 - It38 - pila=1 - U=111
+dP2 - It38 - pila=1 - U=111
+Ciclo
+aP3 - It29 - pila=3 - U=116
+dP3 - It29 - pila=3 - U=116
+Ciclo
+Ciclo
+aP0 - It35 - pila=2 - U=108
+dP0 - It35 - pila=2 - U=108
+Ciclo
+Ciclo
+aP2 - It39 - pila=0 - U=111
+dP2 - It39 - pila=0 - U=111
+aP3 - It30 - pila=2 - U=116
+dP3 - It30 - pila=2 - U=116
+Ciclo
+aP3 - It31 - pila=2 - U=116
+dP3 - It31 - pila=2 - U=116
+Ciclo
+aP0 - It36 - pila=3 - U=108
+dP0 - It36 - pila=3 - U=108
+Ciclo
+aP0 - It37 - pila=4 - U=108
+aP3 - It32 - pila=2 - U=116
+dP3 - It32 - pila=2 - U=116
+Ciclo
+NODOSNODOS(P1256720032, 0) --> P2
+Ciclo
+dP0 - It37 - pila=4 - U=108
+Ciclo
+aP3 - It33 - pila=0 - U=116
+dP3 - It33 - pila=0 - U=116
+aP2 - It40 - pila=1 - U=111
+dP2 - It40 - pila=1 - U=111
+Ciclo
+aP0 - It38 - pila=5 - U=108
+dP0 - It38 - pila=5 - U=108
+Ciclo
+aP2 - It41 - pila=1 - U=111
+dP2 - It41 - pila=1 - U=111
+Ciclo
+aP0 - It39 - pila=5 - U=108
+dP0 - It39 - pila=5 - U=108
+Ciclo
+aP2 - It42 - pila=0 - U=110
+dP2 - It42 - pila=0 - U=110
+aP0 - It40 - pila=5 - U=108
+dP0 - It40 - pila=5 - U=108
+NODOSNODOS(P2, 0) --> P3
+Ciclo
+Ciclo
+aP3 - It34 - pila=2 - U=116
+aP0 - It41 - pila=4 - U=108
+dP0 - It41 - pila=4 - U=108
+Ciclo
+NODOSNODOS(P1256720032, 0) --> P2
+Ciclo
+dP3 - It34 - pila=2 - U=116
+Ciclo
+aP3 - It35 - pila=2 - U=116
+dP3 - It35 - pila=2 - U=116
+Ciclo
+aP0 - It42 - pila=3 - U=108
+dP0 - It42 - pila=3 - U=108
+Ciclo
+aP2 - It43 - pila=3 - U=110
+dP2 - It43 - pila=3 - U=110
+Ciclo
+aP0 - It43 - pila=4 - U=108
+dP0 - It43 - pila=4 - U=108
+aP3 - It36 - pila=1 - U=107
+dP3 - It36 - pila=1 - U=107
+Ciclo
+aP3 - It37 - pila=1 - U=107
+dP3 - It37 - pila=1 - U=107
+Ciclo
+aP2 - It44 - pila=3 - U=110
+dP2 - It44 - pila=3 - U=110
+Ciclo
+aP2 - It45 - pila=3 - U=110
+dP2 - It45 - pila=3 - U=110
+Ciclo
+Ciclo
+aP0 - It44 - pila=5 - U=108
+dP0 - It44 - pila=5 - U=108
+Ciclo
+aP0 - It45 - pila=4 - U=108
+aP2 - It46 - pila=2 - U=110
+dP2 - It46 - pila=2 - U=110
+Ciclo
+aP3 - It38 - pila=1 - U=107
+dP3 - It38 - pila=1 - U=107
+Ciclo
+dP0 - It45 - pila=4 - U=108
+Ciclo
+aP0 - It46 - pila=4 - U=108
+aP3 - It39 - pila=0 - U=107
+dP3 - It39 - pila=0 - U=107
+aP2 - It47 - pila=2 - U=110
+dP2 - It47 - pila=2 - U=110
+Ciclo
+aP2 - It48 - pila=2 - U=110
+dP0 - It46 - pila=4 - U=108
+Ciclo
+aP0 - It47 - pila=4 - U=108
+dP0 - It47 - pila=4 - U=108
+Ciclo
+dP2 - It48 - pila=2 - U=110
+Ciclo
+aP2 - It49 - pila=1 - U=110
+aP0 - It48 - pila=3 - U=108
+dP0 - It48 - pila=3 - U=108
+Ciclo
+dP2 - It49 - pila=1 - U=110
+Ciclo
+NODOSNODOS(P-1980490592, 0) --> P3
+Ciclo
+aP3 - It40 - pila=2 - U=107
+dP3 - It40 - pila=2 - U=107
+Ciclo
+aP0 - It49 - pila=3 - U=108
+dP0 - It49 - pila=3 - U=108
+Ciclo
+aP2 - It50 - pila=1 - U=110
+dP2 - It50 - pila=1 - U=110
+Ciclo
+aP0 - It50 - pila=4 - U=108
+dP0 - It50 - pila=4 - U=108
+aP2 - It51 - pila=2 - U=110
+dP2 - It51 - pila=2 - U=110
+Ciclo
+aP2 - It52 - pila=3 - U=110
+dP2 - It52 - pila=3 - U=110
+Ciclo
+aP3 - It41 - pila=3 - U=107
+dP3 - It41 - pila=3 - U=107
+Ciclo
+aP3 - It42 - pila=4 - U=107
+Ciclo
+aP0 - It51 - pila=3 - U=108
+dP0 - It51 - pila=3 - U=108
+Ciclo
+aP0 - It52 - pila=3 - U=108
+aP2 - It53 - pila=3 - U=110
+dP2 - It53 - pila=3 - U=110
+Ciclo
+dP3 - It42 - pila=4 - U=107
+Ciclo
+dP0 - It52 - pila=3 - U=108
+Ciclo
+aP0 - It53 - pila=4 - U=108
+dP0 - It53 - pila=4 - U=108
+Ciclo
+aP2 - It54 - pila=3 - U=110
+dP2 - It54 - pila=3 - U=110
+Ciclo
+aP2 - It55 - pila=3 - U=110
+aP3 - It43 - pila=4 - U=107
+dP3 - It43 - pila=4 - U=107
+Ciclo
+aP3 - It44 - pila=4 - U=107
+dP3 - It44 - pila=4 - U=107
+dP2 - It55 - pila=3 - U=110
+Ciclo
+aP0 - It54 - pila=3 - U=108
+dP0 - It54 - pila=3 - U=108
+Ciclo
+aP3 - It45 - pila=3 - U=101
+dP3 - It45 - pila=1 - U=101
+Ciclo
+aP3 - It46 - pila=0 - U=101
+Ciclo
+aP0 - It55 - pila=2 - U=108
+dP0 - It55 - pila=2 - U=108
+Ciclo
+aP0 - It56 - pila=3 - U=108
+dP0 - It56 - pila=3 - U=108
+aP2 - It56 - pila=2 - U=109
+dP2 - It56 - pila=2 - U=109
+Ciclo
+aP2 - It57 - pila=3 - U=109
+dP2 - It57 - pila=3 - U=109
+Ciclo
+aP2 - It58 - pila=3 - U=109
+dP2 - It58 - pila=3 - U=109
+Ciclo
+Ciclo
+aP2 - It59 - pila=2 - U=109
+dP2 - It59 - pila=2 - U=109
+Ciclo
+dP3 - It46 - pila=0 - U=101
+NODOSNODOS(P-1980490592, 0) --> P3
+Ciclo
+aP2 - It60 - pila=1 - U=109
+dP2 - It60 - pila=1 - U=109
+Ciclo
+aP2 - It61 - pila=2 - U=109
+dP2 - It61 - pila=2 - U=109
+Ciclo
+aP0 - It57 - pila=4 - U=108
+dP0 - It57 - pila=4 - U=108
+Ciclo
+aP0 - It58 - pila=3 - U=108
+dP0 - It58 - pila=3 - U=108
+Ciclo
+aP3 - It47 - pila=1 - U=101
+dP3 - It47 - pila=1 - U=101
+Ciclo
+aP2 - It62 - pila=3 - U=109
+dP2 - It62 - pila=3 - U=109
+Ciclo
+aP0 - It59 - pila=3 - U=108
+dP0 - It59 - pila=3 - U=108
+Ciclo
+aP3 - It48 - pila=1 - U=101
+dP3 - It48 - pila=1 - U=101
+Ciclo
+aP2 - It63 - pila=3 - U=109
+dP2 - It63 - pila=3 - U=109
+Ciclo
+aP2 - It64 - pila=2 - U=109
+dP2 - It64 - pila=2 - U=109
+Ciclo
+aP3 - It49 - pila=1 - U=101
+dP3 - It49 - pila=1 - U=101
+aP0 - It60 - pila=3 - U=108
+dP0 - It60 - pila=3 - U=108
+Ciclo
+Ciclo
+aP3 - It50 - pila=1 - U=101
+dP3 - It50 - pila=1 - U=101
+Ciclo
+aP0 - It61 - pila=3 - U=108
+dP0 - It61 - pila=3 - U=108
+Ciclo
+aP0 - It62 - pila=3 - U=108
+aP2 - It65 - pila=3 - U=109
+dP2 - It65 - pila=3 - U=109
+Ciclo
+aP2 - It66 - pila=3 - U=109
+dP2 - It66 - pila=3 - U=109
+Ciclo
+dP0 - It62 - pila=3 - U=108
+Ciclo
+aP3 - It51 - pila=1 - U=101
+aP2 - It67 - pila=2 - U=109
+dP2 - It67 - pila=2 - U=109
+Ciclo
+aP0 - It63 - pila=3 - U=108
+dP0 - It63 - pila=3 - U=108
+Ciclo
+dP3 - It51 - pila=1 - U=101
+Ciclo
+aP3 - It52 - pila=1 - U=101
+dP3 - It52 - pila=1 - U=101
+Ciclo
+aP0 - It64 - pila=3 - U=108
+aP2 - It68 - pila=1 - U=109
+dP2 - It68 - pila=1 - U=109
+Ciclo
+aP3 - It53 - pila=0 - U=101
+dP3 - It53 - pila=0 - U=101
+dP0 - It64 - pila=3 - U=108
+Ciclo
+aP0 - It65 - pila=2 - U=108
+dP0 - It65 - pila=2 - U=108
+Ciclo
+aP2 - It69 - pila=0 - U=109
+dP2 - It69 - pila=0 - U=109
+aP0 - It66 - pila=2 - U=108
+dP0 - It66 - pila=2 - U=108
+NODOSNODOS(P2, 0) --> P3
+Ciclo
+Ciclo
+aP0 - It67 - pila=2 - U=108
+dP0 - It67 - pila=2 - U=108
+aP3 - It54 - pila=1 - U=101
+dP3 - It54 - pila=1 - U=101
+Ciclo
+Ciclo
+aP3 - It55 - pila=0 - U=101
+dP3 - It55 - pila=0 - U=101
+aP0 - It68 - pila=3 - U=108
+dP0 - It68 - pila=3 - U=108
+Ciclo
+aP0 - It69 - pila=4 - U=108
+dP0 - It69 - pila=4 - U=108
+Ciclo
+aP0 - It70 - pila=3 - U=108
+dP0 - It70 - pila=3 - U=108
+NODOSNODOS(P-1980490592, 0) --> P3
+Ciclo
+Ciclo
+aP0 - It71 - pila=3 - U=108
+dP0 - It71 - pila=3 - U=108
+Ciclo
+aP0 - It72 - pila=4 - U=108
+dP0 - It72 - pila=4 - U=108
+aP3 - It56 - pila=1 - U=101
+dP3 - It56 - pila=1 - U=101
+Ciclo
+aP3 - It57 - pila=0 - U=101
+Ciclo
+dP3 - It57 - pila=0 - U=101
+aP0 - It73 - pila=5 - U=108
+dP0 - It73 - pila=5 - U=108
+Ciclo
+aP0 - It74 - pila=6 - U=108
+dP0 - It74 - pila=6 - U=108
+Ciclo
+NODOSNODOS(P-1980490592, 0) --> P3
+Ciclo
+aP0 - It75 - pila=4 - U=108
+dP0 - It75 - pila=4 - U=108
+Ciclo
+aP3 - It58 - pila=2 - U=101
+dP3 - It58 - pila=2 - U=101
+Ciclo
+aP0 - It76 - pila=5 - U=108
+dP0 - It76 - pila=5 - U=108
+aP3 - It59 - pila=1 - U=101
+dP3 - It59 - pila=1 - U=101
+Ciclo
+Ciclo
+aP0 - It77 - pila=6 - U=108
+aP3 - It60 - pila=0 - U=101
+dP3 - It60 - pila=0 - U=101
+dP0 - It77 - pila=6 - U=108
+Ciclo
+aP0 - It78 - pila=7 - U=108
+dP0 - It78 - pila=7 - U=108
+Ciclo
+aP0 - It79 - pila=7 - U=108
+dP0 - It79 - pila=7 - U=108
+Ciclo
+NODOSNODOS(P-1980490592, 0) --> P3
+aP0 - It80 - pila=5 - U=108
+dP0 - It80 - pila=5 - U=108
+Ciclo
+Ciclo
+aP0 - It81 - pila=6 - U=108
+aP3 - It61 - pila=2 - U=101
+dP3 - It61 - pila=2 - U=101
+Ciclo
+dP0 - It81 - pila=6 - U=108
+Ciclo
+aP3 - It62 - pila=1 - U=101
+dP3 - It62 - pila=1 - U=101
+Ciclo
+aP0 - It82 - pila=6 - U=108
+dP0 - It82 - pila=6 - U=108
+Ciclo
+aP3 - It63 - pila=2 - U=101
+dP3 - It63 - pila=2 - U=101
+Ciclo
+aP0 - It83 - pila=6 - U=108
+dP0 - It83 - pila=6 - U=108
+Ciclo
+aP3 - It64 - pila=2 - U=101
+dP3 - It64 - pila=2 - U=101
+Ciclo
+aP0 - It84 - pila=5 - U=96
+dP0 - It84 - pila=2 - U=96
+Ciclo
+aP3 - It65 - pila=2 - U=101
+dP3 - It65 - pila=2 - U=101
+Ciclo
+aP0 - It85 - pila=3 - U=96
+dP0 - It85 - pila=3 - U=96
+Ciclo
+aP0 - It86 - pila=3 - U=96
+dP0 - It86 - pila=3 - U=96
+Ciclo
+aP3 - It66 - pila=1 - U=100
+dP3 - It66 - pila=1 - U=100
+Ciclo
+aP0 - It87 - pila=3 - U=96
+dP0 - It87 - pila=3 - U=96
+Ciclo
+aP3 - It67 - pila=1 - U=100
+dP3 - It67 - pila=1 - U=100
+Ciclo
+aP3 - It68 - pila=1 - U=100
+dP3 - It68 - pila=1 - U=100
+Ciclo
+aP0 - It88 - pila=3 - U=96
+dP0 - It88 - pila=3 - U=96
+Ciclo
+aP3 - It69 - pila=1 - U=100
+dP3 - It69 - pila=1 - U=100
+Ciclo
+aP0 - It89 - pila=3 - U=96
+dP0 - It89 - pila=3 - U=96
+Ciclo
+aP3 - It70 - pila=0 - U=97
+dP3 - It70 - pila=0 - U=97
+aP0 - It90 - pila=2 - U=96
+dP0 - It90 - pila=2 - U=96
+Ciclo
+aP0 - It91 - pila=3 - U=96
+dP0 - It91 - pila=3 - U=96
+Ciclo
+aP0 - It92 - pila=3 - U=96
+dP0 - It92 - pila=3 - U=96
+Ciclo
+NODOSNODOS(P-1980490592, 0) --> P3
+Ciclo
+aP0 - It93 - pila=3 - U=96
+dP0 - It93 - pila=3 - U=96
+Ciclo
+aP0 - It94 - pila=3 - U=96
+dP0 - It94 - pila=3 - U=96
+aP3 - It71 - pila=1 - U=97
+dP3 - It71 - pila=1 - U=97
+Ciclo
+Ciclo
+aP3 - It72 - pila=1 - U=97
+dP3 - It72 - pila=1 - U=97
+Ciclo
+aP0 - It95 - pila=3 - U=96
+dP0 - It95 - pila=3 - U=96
+Ciclo
+aP3 - It73 - pila=1 - U=97
+dP3 - It73 - pila=1 - U=97
+Ciclo
+aP0 - It96 - pila=4 - U=96
+dP0 - It96 - pila=4 - U=96
+Ciclo
+aP3 - It74 - pila=1 - U=97
+dP3 - It74 - pila=1 - U=97
+Ciclo
+aP3 - It75 - pila=1 - U=97
+dP3 - It75 - pila=1 - U=97
+Ciclo
+aP0 - It97 - pila=3 - U=96
+dP0 - It97 - pila=3 - U=96
+Ciclo
+aP3 - It76 - pila=0 - U=97
+dP3 - It76 - pila=0 - U=97
+aP0 - It98 - pila=3 - U=96
+dP0 - It98 - pila=3 - U=96
+Ciclo
+aP0 - It99 - pila=2 - U=96
+dP0 - It99 - pila=2 - U=96
+Ciclo
+aP0 - It100 - pila=2 - U=96
+dP0 - It100 - pila=2 - U=96
+NODOSNODOS(P-1980490592, 0) --> P3
+Ciclo
+Ciclo
+aP0 - It101 - pila=1 - U=96
+dP0 - It101 - pila=1 - U=96
+Ciclo
+aP3 - It77 - pila=1 - U=97
+dP3 - It77 - pila=1 - U=97
+Ciclo
+aP3 - It78 - pila=2 - U=97
+aP0 - It102 - pila=1 - U=96
+dP0 - It102 - pila=1 - U=96
+Ciclo
+dP3 - It78 - pila=2 - U=97
+Ciclo
+aP3 - It79 - pila=1 - U=97
+dP3 - It79 - pila=1 - U=97
+Ciclo
+aP0 - It103 - pila=1 - U=96
+dP0 - It103 - pila=1 - U=96
+Ciclo
+aP0 - It104 - pila=2 - U=96
+dP0 - It104 - pila=2 - U=96
+aP3 - It80 - pila=0 - U=97
+dP3 - It80 - pila=0 - U=97
+Ciclo
+aP0 - It105 - pila=2 - U=96
+dP0 - It105 - pila=2 - U=96
+Ciclo
+aP0 - It106 - pila=2 - U=96
+dP0 - It106 - pila=2 - U=96
+Ciclo
+aP0 - It107 - pila=2 - U=96
+dP0 - It107 - pila=2 - U=96
+NODOSNODOS(P-1980490592, 0) --> P3
+Ciclo
+Ciclo
+aP3 - It81 - pila=2 - U=97
+aP0 - It108 - pila=2 - U=96
+dP0 - It108 - pila=2 - U=96
+dP3 - It81 - pila=2 - U=97
+Ciclo
+Ciclo
+aP0 - It109 - pila=2 - U=96
+dP0 - It109 - pila=2 - U=96
+aP3 - It82 - pila=1 - U=97
+dP3 - It82 - pila=1 - U=97
+Ciclo
+Ciclo
+aP0 - It110 - pila=2 - U=96
+dP0 - It110 - pila=2 - U=96
+Ciclo
+aP3 - It83 - pila=1 - U=97
+dP3 - It83 - pila=1 - U=97
+Ciclo
+aP0 - It111 - pila=2 - U=96
+dP0 - It111 - pila=2 - U=96
+Ciclo
+aP3 - It84 - pila=1 - U=97
+dP3 - It84 - pila=1 - U=97
+Ciclo
+aP0 - It112 - pila=1 - U=96
+dP0 - It112 - pila=1 - U=96
+aP3 - It85 - pila=0 - U=97
+dP3 - It85 - pila=0 - U=97
+Ciclo
+aP0 - It113 - pila=1 - U=96
+dP0 - It113 - pila=1 - U=96
+Ciclo
+aP0 - It114 - pila=1 - U=96
+dP0 - It114 - pila=1 - U=96
+Ciclo
+aP0 - It115 - pila=1 - U=96
+dP0 - It115 - pila=1 - U=96
+Ciclo
+aP0 - It116 - pila=1 - U=96
+dP0 - It116 - pila=1 - U=96
+Ciclo
+aP0 - It117 - pila=0 - U=96
+dP0 - It117 - pila=0 - U=96
